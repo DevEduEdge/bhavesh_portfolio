@@ -1,0 +1,96 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb); /* Pastel blue gradient background */
+    color: #2e3a4d; /* Darkish brown text color */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.7); /* Pastel white background with transparency */
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #2e3a4d; /* Darkish brown text color */
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('your-hero-image.jpg'); /* Add your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Main Section Styles */
+.main-section {
+    padding: 50px;
+}
+
+.main-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Contact Footer Styles */
+.contact {
+    background-color: rgba(255, 255, 255, 0.7); /* Pastel white background with transparency */
+    padding: 30px;
+    text-align: center;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul li {
+    display: inline;
+    margin: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar ul {
+        display: block;
+        text-align: center;
+    }
+    
+    .navbar li {
+        display: block;
+        margin: 10px;
+    }
+}
